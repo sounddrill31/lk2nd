@@ -40,7 +40,7 @@ get_version_string() {
 		return
 	fi
 
-	echo "$last_tag-next-$head_rev-$head_date$(git_dirty)"
+	echo "$last_tag-next-$head_rev-$head_date$(git_dirty)-(✧ω✧)"
 }
 
 get_version_string
